@@ -9,7 +9,7 @@ export const DATA = {
   description:
     "Engineer. Developer. Builder of useful things. Focused on tech that helps people.",
   summary:
-    "After graduating with First Class Honours in Telecommunications Engineering in 2024, I’ve been focused on building and scaling my own SaaS products. I love solving problems with code and have a growing interest in AI and cybersecurity. My work spans across edtech and healthtech, and I'm passionate about creating tools that drive real-world impact. I'm also an entrepreneurship enthusiast, constantly exploring how tech can empower people and transform industries.",
+    "After graduating with First Class Honours in [Telecommunications Engineering in 2024](/#education), I’ve been focused on building and scaling my own [SaaS products](/#projects). I love solving problems with code and have a growing interest in AI and cybersecurity. My work spans across edtech and healthtech, and I'm passionate about creating tools that drive real-world impact. I'm also an entrepreneurship enthusiast, constantly exploring how tech can empower people and transform industries.",
   avatarUrl: "/myphoto.png", // Update if you have a different avatar image path
   skills: [
     "JavaScript",
