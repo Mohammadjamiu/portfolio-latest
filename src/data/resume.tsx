@@ -67,7 +67,7 @@ export const DATA = {
       // Add other socials if you want, e.g. Twitter/X, Youtube, etc.
       whatsapp: {
         name: "WhatsApp",
-        url: "https://wa.me/234907787666", // This is your WhatsApp link
+        url: "https://wa.me/2347080462912", // This is your WhatsApp link
         icon: Icons.whatsapp, // Reference to your WhatsApp icon
         navbar: true,
       },
@@ -231,25 +231,6 @@ export const DATA = {
     //   video: "",
     // },
     {
-      title: "AI Plant Identifier",
-      href: "#",
-      dates: "Jan 2025 – Present",
-      active: true,
-      description:
-        "Built an AI-powered tool allowing students, researchers, and gardening enthusiasts to identify plants from images. Implemented image recognition and database integration to provide plant details and research opportunities.",
-      technologies: ["AI", "Image Processing", "React", "NextJS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://ai-plant-analysis-v1.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        // Add GitHub or other links if available
-      ],
-      image: "/plant-ai.png",
-      video: "",
-    },
-    {
       title: "MonoEd Africa",
       href: "#",
       dates: "Dec 2024 – Present",
@@ -268,6 +249,26 @@ export const DATA = {
       image: "/monoed-photo.png",
       video: "",
     },
+    {
+      title: "AI Plant Identifier",
+      href: "#",
+      dates: "Jan 2025 – Present",
+      active: true,
+      description:
+        "Built an AI-powered tool allowing students, researchers, and gardening enthusiasts to identify plants from images. Implemented image recognition and database integration to provide plant details and research opportunities.",
+      technologies: ["AI", "Image Processing", "React", "NextJS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://ai-plant-analysis-v1.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // Add GitHub or other links if available
+      ],
+      image: "/plant-ai.png",
+      video: "",
+    },
+
     {
       title: "MCAN Kano Chapter Website",
       href: "#",
