@@ -309,9 +309,31 @@ export const DATA = {
     },
   ],
   certifications: [
-    "Junior Cyber Security Analyst - Cisco",
-    "Network Support and Security - Cisco",
-    "Member, Nigeria Institute of Electrical and Electronics Engineers (NIEEE), BUK Chapter",
+    {
+      school: "Cisco",
+      href: "https://www.credly.com/badges/d9399a7f-5b89-49c0-9074-6cb311e0e653/linked_in_profile",
+      degree: "Junior Cyber Security Analyst",
+      logoUrl: "/cisco.png",
+      start: "August 2024",
+      end: "",
+    },
+    {
+      school: "Cisco",
+      href: "https://www.credly.com/badges/fd0ee13a-71b7-4a23-b91c-138c3bbeccbd/linked_in_profile",
+      degree: "Network Support and Security",
+      logoUrl: "/cisco.png",
+      start: "August 2024",
+      end: "",
+    },
+    {
+      school: "BUK Chapter",
+      href: "",
+      degree:
+        "Member, Nigeria Institute of Electrical and Electronics Engineers (NIEEE)",
+      logoUrl: "/buklogo.png",
+      start: "2017",
+      end: "2024",
+    },
   ],
   leadership: [
     {
@@ -329,11 +351,36 @@ export const DATA = {
         "Coached and mentored prospective undergraduates, recording over 65% average success yearly. Prepared academic materials and organized tutorials for colleagues and lower-level students.",
     },
   ],
+
   awards: [
-    "Best Graduating Student - Telecommunications Engineering (Faculty of Engineering)",
-    "Award of Excellence - Nigerian Universities Engineering Students’ Association (NUESA)",
-    "Bayero University Scholarship (Best Performance in Telecommunications Engineering – Levels 300 & 400)",
+    {
+      title: "Best Graduating Student",
+      dates: "July, 2024",
+      location: "Bayero University, Kano",
+      description: "Telecommunications Engineering (Faculty of Engineering)",
+      image: "/buklogo.png",
+      links: [],
+    },
+    {
+      title: "Award of Excellence",
+      dates: "January, 2024",
+      location: "Bayero University, Kano",
+      description:
+        "Nigerian Universities Engineering Students’ Association (NUESA)",
+      image: "/buklogo.png",
+      links: [],
+    },
+    {
+      title: "Bayero University Scholarship",
+      dates: "2022–2023",
+      location: "Bayero University, Kano",
+      description:
+        "Best Performance in Telecommunications Engineering – Levels 300 & 400",
+      image: "/buklogo.png",
+      links: [],
+    },
   ],
+
   conferences: [
     "BUK Energy Conference: Emerging Opportunities in Nigeria’s Energy Landscape",
     "NIEEE Workshop/Technical Session: Bridging the Gap Between Undergraduates and Engineers",

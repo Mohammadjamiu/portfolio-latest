@@ -195,6 +195,64 @@ export default function Page() {
           </BlurFade>
         </div>
       </section> */}
+      <section id="certifications">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 7}>
+            <h2 className="text-xl font-bold">Certifications</h2>
+          </BlurFade>
+          {DATA.certifications.map((certifications, id) => (
+            <BlurFade
+              key={certifications.school}
+              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
+            >
+              <ResumeCard
+                key={certifications.school}
+                href={certifications.href}
+                logoUrl={certifications.logoUrl}
+                altText={certifications.school}
+                title={certifications.school}
+                subtitle={certifications.degree}
+                period={`${certifications.start} ${
+                  certifications.end === "" ? "" : "-"
+                } ${certifications.end}`}
+              />
+            </BlurFade>
+          ))}
+        </div>
+      </section>
+      <section id="awards">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  Awards & Honors
+                </div>
+              </div>
+            </div>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 14}>
+            <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
+              {DATA.awards.map((award, id) => (
+                <BlurFade
+                  key={award.title + award.dates}
+                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
+                >
+                  <HackathonCard
+                    title={award.title}
+                    description={award.description}
+                    location={award.location}
+                    dates={award.dates}
+                    image={award.image}
+                    links={award.links}
+                  />
+                </BlurFade>
+              ))}
+            </ul>
+          </BlurFade>
+        </div>
+      </section>
+
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
